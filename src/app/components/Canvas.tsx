@@ -2,8 +2,7 @@
 import { useRef, useEffect } from "react";
 import { io, Socket } from "socket.io-client";
 
-const SOCKET_URL =
-  process.env.NEXT_PUBLIC_SOCKET_URL || "http://localhost:4000";
+const SOCKET_URL = process.env.NEXT_PUBLIC_SOCKET_URL || "https://draw-together-r7ne.onrender.com";
 
 const Canvas = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
