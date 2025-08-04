@@ -26,6 +26,7 @@ const nextConfig: NextConfig = {
     ];
   },
 
+  output: "export",
   // Другие полезные настройки
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
